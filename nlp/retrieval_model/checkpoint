@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/benjaminwong/Desktop/Python Projects/Personal Projects/Chat-bot/nlp/retrieval_model/model.tflearn"
+all_model_checkpoint_paths: "/Users/benjaminwong/Desktop/Python Projects/Personal Projects/Chat-bot/nlp/retrieval_model/model.tflearn"

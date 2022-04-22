@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Ben</title>
+    <link rel="stylesheet" href="../static/styles/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <img id="profile-pic", src="../static/images/industrial-robot.png" alt="industrial-robot">
+        <h1 id="chatbot-name">Chatbot Ben</h1>
+    </header>
+    <section id="chat-area">
+        <div class="msg sender-msg">
+            <h3>Chatbot Ben</h3>
+            <p>What's up?</p>
+        </div>
+    </section>
+    <footer>
+        <form id="msg-input-form" action='javascript:appendMessage()'>
+            <input
+                    id="msg-input-field"
+                    autocomplete="off"
+                    pattern='.*\S+.*'
+                    type="text"
+                    placeholder="Type a message"
+                    oninvalid="setCustomValidity('Please enter text.')"
+                    onchange="try{setCustomValidity('')}catch(e){}"
+            />
+            <button id="msg-send-button" type="submit">Send</button>
+        </form>
+        
+    </footer>
+
+    <script src='../static/main.js'></script>
+</body>
+</html>
