@@ -38,7 +38,6 @@ function appendMessage(name, side, text) {
     let msg = document.createElement('div');
     msg.innerHTML = msgHTML;
     chatArea.appendChild(msg);
-//    chatArea.scrollTop -= 1000;
     window.scrollBy(0, msg.clientHeight)
 }
 
