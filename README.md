@@ -1,9 +1,9 @@
 # Conversational Chatbot
 ## Project Overview
-A conversational chatbot built with a seq2seq LSTM model trained myself using the Cornell movie dialog corpus.
+A conversational chatbot for my A-level coursework, which utilises a deep neural network and a seq2seq LSTM model. These models have been  trained by me using the Cornell movie dialog corpus.
 
 ## Cool Features
-- Uses a deep neural net (from Tensorflow) to predict the intent of the user input
+- Uses a deep neural network (from Tensorflow) to predict the intent of the user input
   - If the confidence is high, it outputs a random response from a list of responses related to that intent
 - Uses a seq2seq LSTM generative model to generate a response by predicting the next character
   - Used when the confidence of the intent recognition is low
