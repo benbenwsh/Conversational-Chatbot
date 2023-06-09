@@ -1,4 +1,4 @@
-# Conversational-Chatbot
+# Conversational Chatbot
 ## Project Overview
 A conversational chatbot built with a seq2seq LSTM model trained myself using the Cornell movie dialog corpus.
 
